@@ -1,0 +1,382 @@
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+ * Restarting with inotify reloader
+ * Debugger is active!
+ * Debugger PIN: 132-380-689
+14.241.229.180 - - [14/Nov/2020 05:50:06] "[37mGET / HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 05:50:07] "[33mGET /static/js/index.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 05:50:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+14.241.229.180 - - [14/Nov/2020 05:50:07] "[33mGET /static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 05:50:07] "[33mGET /static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 05:50:07] "[33mGET /static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 05:50:07] "[33mGET /static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 05:51:57] "[32mPOST /upload HTTP/1.1[0m" 302 -
+/opt/conda/lib/python3.7/site-packages/librosa/core/audio.py:162: UserWarning: PySoundFile failed. Trying audioread instead.
+  warnings.warn("PySoundFile failed. Trying audioread instead.")
+14.241.229.180 - - [14/Nov/2020 05:52:05] "[37mGET /predict/ChèThái794.m4a/gist_yarg HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 05:52:06] "[33mGET /predict/ChèThái794.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 05:52:06] "[33mGET /predict/ChèThái794.m4a/static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 05:52:06] "[37mGET /static/audio/ChèThái794_gist_yarg.png HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 05:52:06] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 05:52:06] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+/opt/conda/lib/python3.7/site-packages/librosa/core/audio.py:162: UserWarning: PySoundFile failed. Trying audioread instead.
+  warnings.warn("PySoundFile failed. Trying audioread instead.")
+14.241.229.180 - - [14/Nov/2020 05:52:48] "[37mGET /predict/ChèThái794.m4a/gist_yarg HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 05:52:48] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 05:52:49] "[33mGET /predict/ChèThái794.m4a/static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 05:52:49] "[33mGET /predict/ChèThái794.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 05:52:49] "[37mGET /static/audio/ChèThái794_gist_yarg.png HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 05:52:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 05:53:11] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 05:53:12] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+/opt/conda/lib/python3.7/site-packages/librosa/core/audio.py:162: UserWarning: PySoundFile failed. Trying audioread instead.
+  warnings.warn("PySoundFile failed. Trying audioread instead.")
+14.241.229.180 - - [14/Nov/2020 05:56:26] "[37mGET /predict/ChèThái794.m4a/gist_yarg HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 05:56:26] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 05:56:26] "[33mGET /predict/ChèThái794.m4a/static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 05:56:26] "[33mGET /predict/ChèThái794.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 05:56:26] "[37mGET /static/audio/ChèThái794_gist_yarg.png HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 05:56:26] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 05:56:27] "[33mGET /predict/ChèThái794.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 05:56:27] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 05:56:28] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 05:56:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+/opt/conda/lib/python3.7/site-packages/librosa/core/audio.py:162: UserWarning: PySoundFile failed. Trying audioread instead.
+  warnings.warn("PySoundFile failed. Trying audioread instead.")
+14.241.229.180 - - [14/Nov/2020 05:59:44] "[37mGET /predict/ChèThái794.m4a/gist_yarg HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 05:59:44] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 05:59:44] "[33mGET /predict/ChèThái794.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 05:59:44] "[33mGET /predict/ChèThái794.m4a/static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 05:59:44] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 05:59:44] "[37mGET /static/audio/ChèThái794_gist_yarg.png HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 05:59:45] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 05:59:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+/opt/conda/lib/python3.7/site-packages/librosa/core/audio.py:162: UserWarning: PySoundFile failed. Trying audioread instead.
+  warnings.warn("PySoundFile failed. Trying audioread instead.")
+14.241.229.180 - - [14/Nov/2020 06:00:27] "[37mGET /predict/ChèThái794.m4a/gist_yarg HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:00:28] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:00:28] "[33mGET /predict/ChèThái794.m4a/static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:00:28] "[33mGET /predict/ChèThái794.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:00:28] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:00:28] "[37mGET /static/audio/ChèThái794_gist_yarg.png HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:00:28] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:00:28] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:00:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+/opt/conda/lib/python3.7/site-packages/librosa/core/audio.py:162: UserWarning: PySoundFile failed. Trying audioread instead.
+  warnings.warn("PySoundFile failed. Trying audioread instead.")
+14.241.229.180 - - [14/Nov/2020 06:02:11] "[37mGET /predict/ChèThái794.m4a/gist_yarg HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:02:12] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:02:12] "[33mGET /predict/ChèThái794.m4a/static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:02:12] "[33mGET /predict/ChèThái794.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:02:12] "[37mGET /static/audio/ChèThái794_gist_yarg.png HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:02:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:02:19] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:02:20] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:02:20] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+ * Detected change in '/home/jupyter/vpodcast_demo/app/.~main.py', reloading
+ * Detected change in '/home/jupyter/vpodcast_demo/app/.~main.py', reloading
+ * Detected change in '/home/jupyter/vpodcast_demo/app/main.py', reloading
+ * Detected change in '/home/jupyter/vpodcast_demo/app/.~main.py', reloading
+ImmutableMultiDict([('file', <FileStorage: 'Chè Thái 79 4.m4a' ('audio/x-m4a')>)])
+The style is gist_yarg
+The style is 2 gist_yarg
+Image is successfully saved at /home/jupyter/vpodcast_demo/app/static/audio/ChèThái794_gist_yarg.png
+fname is /static/audio/ChèThái794.m4a
+fimg is /static/audio/ChèThái794_gist_yarg.png
+The style is 2 gist_yarg
+Image is successfully saved at /home/jupyter/vpodcast_demo/app/static/audio/ChèThái794_gist_yarg.png
+fname is /static/audio/ChèThái794.m4a
+fimg is /static/audio/ChèThái794_gist_yarg.png
+The style is 2 gist_yarg
+Image is successfully saved at /home/jupyter/vpodcast_demo/app/static/audio/ChèThái794_gist_yarg.png
+fname is /static/audio/ChèThái794.m4a
+fimg is /static/audio/ChèThái794_gist_yarg.png
+The style is 2 gist_yarg
+Image is successfully saved at /home/jupyter/vpodcast_demo/app/static/audio/ChèThái794_gist_yarg.png
+fname is /static/audio/ChèThái794.m4a
+fimg is /static/audio/ChèThái794_gist_yarg.png
+The style is 2 gist_yarg
+Image is successfully saved at /home/jupyter/vpodcast_demo/app/static/audio/ChèThái794_gist_yarg.png
+fname is /static/audio/ChèThái794.m4a
+fimg is /static/audio/ChèThái794_gist_yarg.png
+The style is 2 gist_yarg
+Image is successfully saved at /home/jupyter/vpodcast_demo/app/static/audio/ChèThái794_gist_yarg.png
+fname is /static/audio/ChèThái794.m4a
+fimg is /static/audio/ChèThái794_gist_yarg.png
+ * Restarting with inotify reloader
+ * Debugger is active!
+ * Debugger PIN: 132-380-689
+/opt/conda/lib/python3.7/site-packages/librosa/core/audio.py:162: UserWarning: PySoundFile failed. Trying audioread instead.
+  warnings.warn("PySoundFile failed. Trying audioread instead.")
+14.241.229.180 - - [14/Nov/2020 06:04:50] "[37mGET /predict/ChèThái794.m4a/gist_yarg HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:04:50] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:04:50] "[33mGET /predict/ChèThái794.m4a/static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:04:50] "[33mGET /predict/ChèThái794.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:04:50] "[37mGET /static/audio/ChèThái794_gist_yarg.png HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:04:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:05:15] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:05:15] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+ * Detected change in '/home/jupyter/vpodcast_demo/app/.~main.py', reloading
+ * Detected change in '/home/jupyter/vpodcast_demo/app/.~main.py', reloading
+ * Detected change in '/home/jupyter/vpodcast_demo/app/main.py', reloading
+ * Detected change in '/home/jupyter/vpodcast_demo/app/.~main.py', reloading
+The style is 2 gist_yarg
+Image is successfully saved at /home/jupyter/vpodcast_demo/app/static/audio/ChèThái794_gist_yarg.png
+fname is /static/audio/ChèThái794.m4a
+fimg is /static/audio/ChèThái794_gist_yarg.png
+ * Restarting with inotify reloader
+ * Debugger is active!
+ * Debugger PIN: 132-380-689
+ * Detected change in '/home/jupyter/vpodcast_demo/app/.~main.py', reloading
+ * Detected change in '/home/jupyter/vpodcast_demo/app/.~main.py', reloading
+ * Detected change in '/home/jupyter/vpodcast_demo/app/main.py', reloading
+ * Detected change in '/home/jupyter/vpodcast_demo/app/.~main.py', reloading
+ * Restarting with inotify reloader
+ * Debugger is active!
+ * Debugger PIN: 132-380-689
+/opt/conda/lib/python3.7/site-packages/librosa/core/audio.py:162: UserWarning: PySoundFile failed. Trying audioread instead.
+  warnings.warn("PySoundFile failed. Trying audioread instead.")
+14.241.229.180 - - [14/Nov/2020 06:11:10] "[37mGET /predict/ChèThái794.m4a/gist_yarg HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:11:10] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:11:10] "[33mGET /predict/ChèThái794.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:11:10] "[33mGET /predict/ChèThái794.m4a/static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:11:10] "[33mGET /predict/ChèThái794.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:11:10] "[37mGET /static/audio/ChèThái794_gist_yarg.png HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:11:11] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:11:11] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:11:11] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:11:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+/opt/conda/lib/python3.7/site-packages/librosa/core/audio.py:162: UserWarning: PySoundFile failed. Trying audioread instead.
+  warnings.warn("PySoundFile failed. Trying audioread instead.")
+14.241.229.180 - - [14/Nov/2020 06:11:46] "[37mGET /predict/ChèThái794.m4a/gist_yarg HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:11:47] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:11:47] "[33mGET /predict/ChèThái794.m4a/static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:11:47] "[33mGET /predict/ChèThái794.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:11:47] "[37mGET /static/audio/ChèThái794_gist_yarg.png HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:11:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:11:49] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:11:49] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:11:49] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:12:24] "[37mGET /static/audio/ChèThái794_gist_yarg.png HTTP/1.1[0m" 200 -
+/opt/conda/lib/python3.7/site-packages/librosa/core/audio.py:162: UserWarning: PySoundFile failed. Trying audioread instead.
+  warnings.warn("PySoundFile failed. Trying audioread instead.")
+14.241.229.180 - - [14/Nov/2020 06:14:24] "[37mGET /predict/ChèThái794.m4a/gist_yarg HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:14:24] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:14:24] "[33mGET /predict/ChèThái794.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:14:24] "[33mGET /predict/ChèThái794.m4a/static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:14:24] "[37mGET /static/audio/ChèThái794_gist_yarg.png HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:14:24] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:14:24] "[33mGET /predict/ChèThái794.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:14:24] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:14:25] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:14:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:14:54] "[37mGET / HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:14:54] "[33mGET /static/js/index.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:14:54] "[33mGET /static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:14:54] "[33mGET /static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:14:56] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:14:56] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:14:56] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+/opt/conda/lib/python3.7/site-packages/librosa/core/audio.py:162: UserWarning: PySoundFile failed. Trying audioread instead.
+  warnings.warn("PySoundFile failed. Trying audioread instead.")
+14.241.229.180 - - [14/Nov/2020 06:16:24] "[37mGET /predict/ChèThái794.m4a/gist_yarg HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:16:24] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:16:24] "[33mGET /predict/ChèThái794.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:16:24] "[33mGET /predict/ChèThái794.m4a/static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:16:24] "[37mGET /static/audio/ChèThái794_gist_yarg.png HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:16:24] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:16:24] "[33mGET /predict/ChèThái794.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:16:24] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:16:25] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:16:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+/opt/conda/lib/python3.7/site-packages/librosa/core/audio.py:162: UserWarning: PySoundFile failed. Trying audioread instead.
+  warnings.warn("PySoundFile failed. Trying audioread instead.")
+14.241.229.180 - - [14/Nov/2020 06:17:28] "[37mGET /predict/ChèThái794.m4a/gist_yarg HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:17:28] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:17:28] "[33mGET /predict/ChèThái794.m4a/static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:17:28] "[33mGET /predict/ChèThái794.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:17:28] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:17:28] "[37mGET /static/audio/ChèThái794_gist_yarg.png HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:17:29] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:17:29] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:17:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+/opt/conda/lib/python3.7/site-packages/librosa/core/audio.py:162: UserWarning: PySoundFile failed. Trying audioread instead.
+  warnings.warn("PySoundFile failed. Trying audioread instead.")
+14.241.229.180 - - [14/Nov/2020 06:18:27] "[37mGET /predict/ChèThái794.m4a/gist_yarg HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:18:27] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:18:27] "[33mGET /predict/ChèThái794.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:18:27] "[33mGET /predict/ChèThái794.m4a/static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:18:27] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:18:27] "[37mGET /static/audio/ChèThái794_gist_yarg.png HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:18:27] "[33mGET /predict/ChèThái794.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:18:27] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:18:28] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:18:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+/opt/conda/lib/python3.7/site-packages/librosa/core/audio.py:162: UserWarning: PySoundFile failed. Trying audioread instead.
+  warnings.warn("PySoundFile failed. Trying audioread instead.")
+14.241.229.180 - - [14/Nov/2020 06:19:52] "[37mGET /predict/ChèThái794.m4a/gist_yarg HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:19:52] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:19:52] "[37mGET /static/audio/ChèThái794_gist_yarg.png HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:19:52] "[33mGET /predict/ChèThái794.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:19:52] "[33mGET /predict/ChèThái794.m4a/static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:19:52] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:19:52] "[33mGET /predict/ChèThái794.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:19:52] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:19:53] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:19:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:20:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:20:24] "[37mGET /static/audio/ChèThái794.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:20:58] "[37mGET / HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:20:58] "[33mGET /static/js/index.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:20:58] "[33mGET /static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:20:58] "[33mGET /static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:21:07] "[32mPOST /upload HTTP/1.1[0m" 302 -
+/opt/conda/lib/python3.7/site-packages/librosa/core/audio.py:162: UserWarning: PySoundFile failed. Trying audioread instead.
+  warnings.warn("PySoundFile failed. Trying audioread instead.")
+14.241.229.180 - - [14/Nov/2020 06:21:08] "[37mGET /predict/ChèThái796.m4a/pink HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:21:08] "[33mGET /predict/ChèThái796.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:21:08] "[33mGET /predict/ChèThái796.m4a/static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:21:08] "[37mGET /static/audio/ChèThái796.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:21:08] "[37mGET /static/audio/ChèThái796_pink.png HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:22:53] "[37mGET /static/audio/ChèThái796.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:23:00] "[32mPOST /upload HTTP/1.1[0m" 302 -
+/opt/conda/lib/python3.7/site-packages/librosa/core/audio.py:162: UserWarning: PySoundFile failed. Trying audioread instead.
+  warnings.warn("PySoundFile failed. Trying audioread instead.")
+14.241.229.180 - - [14/Nov/2020 06:23:01] "[37mGET /predict/ChèThái796.m4a/Purples HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:23:01] "[33mGET /predict/ChèThái796.m4a/static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:23:01] "[33mGET /predict/ChèThái796.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:23:01] "[37mGET /static/audio/ChèThái796_Purples.png HTTP/1.1[0m" 200 -
+173.252.107.16 - - [14/Nov/2020 06:23:21] "[37mGET / HTTP/1.1[0m" 200 -
+173.252.107.41 - - [14/Nov/2020 06:23:21] "[37mGET / HTTP/1.1[0m" 200 -
+69.171.251.16 - - [14/Nov/2020 06:23:23] "[37mGET / HTTP/1.1[0m" 200 -
+69.171.251.118 - - [14/Nov/2020 06:23:23] "[37mHEAD / HTTP/1.1[0m" 200 -
+173.252.95.13 - - [14/Nov/2020 06:23:23] "[37mGET / HTTP/1.1[0m" 200 -
+173.252.95.3 - - [14/Nov/2020 06:23:24] "[37mHEAD / HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:23:55] "[37mGET / HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:23:55] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:23:55] "[33mGET /static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:23:55] "[33mGET /static/js/index.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:23:55] "[33mGET /static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:23:56] "[33mGET /static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:23:56] "[33mGET /static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:23:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:24:20] "[32mPOST /upload HTTP/1.1[0m" 302 -
+/opt/conda/lib/python3.7/site-packages/librosa/core/audio.py:162: UserWarning: PySoundFile failed. Trying audioread instead.
+  warnings.warn("PySoundFile failed. Trying audioread instead.")
+14.241.229.180 - - [14/Nov/2020 06:24:22] "[37mGET /predict/ChèThái79.m4a/PiYG HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:24:22] "[33mGET /predict/ChèThái79.m4a/static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:24:22] "[33mGET /predict/ChèThái79.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:24:22] "[37mGET /static/audio/ChèThái79.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:24:22] "[37mGET /static/audio/ChèThái79_PiYG.png HTTP/1.1[0m" 200 -
+/opt/conda/lib/python3.7/site-packages/librosa/core/audio.py:162: UserWarning: PySoundFile failed. Trying audioread instead.
+  warnings.warn("PySoundFile failed. Trying audioread instead.")
+14.241.229.180 - - [14/Nov/2020 06:26:13] "[37mGET /predict/ChèThái79.m4a/PiYG HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:26:13] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:26:13] "[37mGET /static/audio/ChèThái79.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:26:13] "[33mGET /predict/ChèThái79.m4a/static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:26:13] "[33mGET /predict/ChèThái79.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:26:13] "[37mGET /static/audio/ChèThái79_PiYG.png HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:26:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+/opt/conda/lib/python3.7/site-packages/librosa/core/audio.py:162: UserWarning: PySoundFile failed. Trying audioread instead.
+  warnings.warn("PySoundFile failed. Trying audioread instead.")
+14.241.229.180 - - [14/Nov/2020 06:27:12] "[37mGET /predict/ChèThái79.m4a/PiYG HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:27:12] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:27:12] "[33mGET /predict/ChèThái79.m4a/static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:27:12] "[33mGET /predict/ChèThái79.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:27:12] "[37mGET /static/audio/ChèThái79.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:27:12] "[37mGET /static/audio/ChèThái79_PiYG.png HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:27:13] "[33mGET /predict/ChèThái79.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:27:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+/opt/conda/lib/python3.7/site-packages/librosa/core/audio.py:162: UserWarning: PySoundFile failed. Trying audioread instead.
+  warnings.warn("PySoundFile failed. Trying audioread instead.")
+14.241.229.180 - - [14/Nov/2020 06:27:29] "[37mGET /predict/ChèThái79.m4a/PiYG HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:27:29] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:27:29] "[33mGET /predict/ChèThái79.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:27:29] "[33mGET /predict/ChèThái79.m4a/static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:27:29] "[37mGET /static/audio/ChèThái79_PiYG.png HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:27:30] "[33mGET /predict/ChèThái79.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:27:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+/opt/conda/lib/python3.7/site-packages/librosa/core/audio.py:162: UserWarning: PySoundFile failed. Trying audioread instead.
+  warnings.warn("PySoundFile failed. Trying audioread instead.")
+14.241.229.180 - - [14/Nov/2020 06:29:25] "[37mGET /predict/ChèThái79.m4a/PiYG HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:29:25] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:29:25] "[33mGET /predict/ChèThái79.m4a/static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:29:25] "[33mGET /predict/ChèThái79.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:29:25] "[37mGET /static/audio/ChèThái79.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:29:25] "[37mGET /static/audio/ChèThái79_PiYG.png HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:29:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+/opt/conda/lib/python3.7/site-packages/librosa/core/audio.py:162: UserWarning: PySoundFile failed. Trying audioread instead.
+  warnings.warn("PySoundFile failed. Trying audioread instead.")
+14.241.229.180 - - [14/Nov/2020 06:30:06] "[37mGET /predict/ChèThái79.m4a/PiYG HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:30:06] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:30:07] "[33mGET /predict/ChèThái79.m4a/static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:30:07] "[33mGET /predict/ChèThái79.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:30:07] "[37mGET /static/audio/ChèThái79.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:30:07] "[37mGET /static/audio/ChèThái79_PiYG.png HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:30:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+/opt/conda/lib/python3.7/site-packages/librosa/core/audio.py:162: UserWarning: PySoundFile failed. Trying audioread instead.
+  warnings.warn("PySoundFile failed. Trying audioread instead.")
+14.241.229.180 - - [14/Nov/2020 06:30:34] "[37mGET /predict/ChèThái79.m4a/PiYG HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:30:34] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:30:34] "[33mGET /predict/ChèThái79.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:30:34] "[33mGET /predict/ChèThái79.m4a/static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:30:34] "[37mGET /static/audio/ChèThái79_PiYG.png HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:30:35] "[33mGET /predict/ChèThái79.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:30:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+/opt/conda/lib/python3.7/site-packages/librosa/core/audio.py:162: UserWarning: PySoundFile failed. Trying audioread instead.
+  warnings.warn("PySoundFile failed. Trying audioread instead.")
+14.241.229.180 - - [14/Nov/2020 06:30:59] "[37mGET /predict/ChèThái79.m4a/PiYG HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:30:59] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:30:59] "[33mGET /predict/ChèThái79.m4a/static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:30:59] "[33mGET /predict/ChèThái79.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:31:00] "[37mGET /static/audio/ChèThái79_PiYG.png HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:31:00] "[37mGET /static/audio/ChèThái79.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:31:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+/opt/conda/lib/python3.7/site-packages/librosa/core/audio.py:162: UserWarning: PySoundFile failed. Trying audioread instead.
+  warnings.warn("PySoundFile failed. Trying audioread instead.")
+14.241.229.180 - - [14/Nov/2020 06:31:25] "[37mGET /predict/ChèThái79.m4a/PiYG HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:31:25] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:31:25] "[33mGET /predict/ChèThái79.m4a/static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:31:25] "[33mGET /predict/ChèThái79.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:31:25] "[37mGET /static/audio/ChèThái79_PiYG.png HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:31:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:31:43] "[37mGET / HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:31:43] "[33mGET /static/js/index.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:31:43] "[33mGET /static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:31:43] "[33mGET /static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:31:43] "[33mGET /static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:33:05] "[37mGET / HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:33:05] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:33:05] "[33mGET /static/js/index.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:33:05] "[33mGET /static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:33:05] "[33mGET /static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:33:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:33:26] "[37mGET / HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:33:27] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:33:27] "[33mGET /static/js/index.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:33:27] "[33mGET /static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:33:27] "[33mGET /static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:33:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:48:52] "[37mGET / HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:48:52] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:48:52] "[33mGET /static/js/index.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:48:52] "[33mGET /static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:48:53] "[33mGET /static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:48:53] "[33mGET /static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:48:53] "[33mGET /static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:48:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:49:07] "[32mPOST /upload HTTP/1.1[0m" 302 -
+/opt/conda/lib/python3.7/site-packages/librosa/core/audio.py:162: UserWarning: PySoundFile failed. Trying audioread instead.
+  warnings.warn("PySoundFile failed. Trying audioread instead.")
+14.241.229.180 - - [14/Nov/2020 06:49:11] "[37mGET /predict/ChèThái795.m4a/PuBu HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:49:12] "[33mGET /predict/ChèThái795.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:49:12] "[33mGET /predict/ChèThái795.m4a/static/js/jquery-3.4.1.min.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:49:12] "[37mGET /static/audio/ChèThái795.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:49:12] "[37mGET /static/audio/ChèThái795_PuBu.png HTTP/1.1[0m" 200 -
+14.241.229.180 - - [14/Nov/2020 06:49:12] "[33mGET /predict/ChèThái795.m4a/static/js/animation.js HTTP/1.1[0m" 404 -
+14.241.229.180 - - [14/Nov/2020 06:49:12] "[37mGET /static/audio/ChèThái795.m4a HTTP/1.1[0m" 206 -
+14.241.229.180 - - [14/Nov/2020 06:49:12] "[37mGET /static/audio/ChèThái795.m4a HTTP/1.1[0m" 206 -

@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- Content -->
+
+<div class="topnav">
+  <marquee scrollamount=13> ⚘ VIETCETERA ☀︎ The Lab Saigon ▸ AUDIO2SPECTROGRAM ✧</marquee>
+</div>
+
+<div class="title">
+  <form action='/upload' method=post enctype=multipart/form-data>
+    <div id='submit'>
+    <div>
+      <label for="file-upload" class="submit-file">Upload Audio</label>
+      <input id="file-upload" type="file" name='file'>
+    </div>
+    <div>
+      <input type="submit" value="Generate" class="submit-btn">
+    </div>
+  </div>
+  </form>
+  <h1 id="file-name"></h1>
+</div>
+
+
+{% endblock %}

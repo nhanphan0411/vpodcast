@@ -1,0 +1,125 @@
+:root {
+    --input-padding-x: 1.5rem;
+    --input-padding-y: 0.75rem;
+  }
+
+.topnav {
+    background-color: #000000;
+    overflow: hidden;
+  }
+marquee {
+    font-family: 'IBM Plex Mono';
+    font-size: 24px;
+    color: white;
+}
+
+
+.title {
+  padding-top:50px;
+  padding-left:50px;
+}
+
+  /* Font 
+  -------------------------------------------------- */
+h1 {
+    font-family: 'IBM Plex Mono';
+    font-size: 56px;
+}
+
+h3, a {
+    font-family: 'IBM Plex Mono';
+    font-size: 36px;
+    color: black;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+div {
+    font-family: 'IBM Plex Mono';
+    font-size: 16px;
+}
+
+p {
+    font-family: 'IBM Plex Mono';
+    font-size: 16px;
+}
+
+  /* Fallback for Edge
+  -------------------------------------------------- */
+  
+  @supports (-ms-ime-align: auto) {
+    .form-label-group>label {
+      display: none;
+    }
+    .form-label-group input::-ms-input-placeholder {
+      color: #777;
+    }
+  }
+  
+  /* Fallback for IE
+  -------------------------------------------------- */
+  
+  @media all and (-ms-high-contrast: none),
+  (-ms-high-contrast: active) {
+    .form-label-group>label {
+      display: none;
+    }
+    .form-label-group input:-ms-input-placeholder {
+      color: #777;
+    }
+  }
+
+div.body {
+  height: 90vh;
+  padding: 150px;}
+
+body{
+  margin:0;
+}
+
+.audio {
+  position: fixed; 
+  bottom: 30px; 
+  left: 40px;
+  margin: 0;
+  padding: 0;
+  width: 40%; 
+  height: 30px;
+  filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+}
+
+.back-home {
+  position: fixed; 
+  bottom: 20px; 
+  right: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+.center-fit {
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+}
+
+input[type="file"] {
+  display: none !important;
+}
+.submit-file,
+.submit-btn {
+  font-size: 3rem;
+  border: none;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  color:white;
+  background-color: #000000;
+  top:50;
+}
+
+#file-name {
+  color: red
+}
