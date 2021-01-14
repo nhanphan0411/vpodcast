@@ -4,26 +4,32 @@ web demo for vpodcast project
 # How to run?
 
 Change directory:
-```cd app```
+```
+cd vpodcast
+```
 
-1. Install Python 3.8
-2. Install pip
-```sudo easy_install pip```
+To prepare this project's environment, we should use miniconda to handle packages.
+```pip``` can work but will be stuck at installing ```librosa```. The library relies on ```numba```, installing ```numba``` on Python3 via pip still has conflict and is constantly a pain in the ass. Thus, use conda for better life.  
 
-3. Install virtual environment
-```sudo pip install virtualenv```
+1. Install miniconda
+```
+sudo apt-get update
+sudo apt-get install bzip2 libxml2-dev
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+rm Miniconda3-latest-Linux-x86_64.sh
+source .bashrc
+conda install scikit-learn pandas jupyter ipython
+```
 
-4. Copy to bin 
-```sudo /usr/bin/easy_install virtualenv```
+2. Create and install required environment
+```
+conda env create -f environment.yml
+conda activate vpodcast
+```
 
-5. Create a new environment 
-```virtualenv vpodcast```
-
-6. Activate
-```source vpodcast/bin/activate```
-
-7. Install dependencies
-```pip3 install -r requirements.txt```
-
-8. Run the script
-```python main.py```
+3. Change directory into app and run the script
+```
+cd app
+python3 main.py
+```

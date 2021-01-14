@@ -1,3 +1,0 @@
-kill $(ps ax | grep main.py | head -n 1 | awk '{print $1}')
-chmod +x ./main.py
-nohup stdbuf -oL ./main.py > log.out &
