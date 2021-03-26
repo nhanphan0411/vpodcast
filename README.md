@@ -8,8 +8,10 @@ Change directory:
 cd vpodcast
 ```
 
-To prepare this project's environment, we should use miniconda to handle packages.
-```pip``` can work but will be stuck at installing ```librosa```. The library relies on ```numba```, installing ```numba``` on Python3 via pip still has conflict and is constantly a pain in the ass. Thus, use conda for better life.  
+Use miniconda to handle packages.
+
+```pip``` can work but will be stuck at installing ```librosa```. The library relies on ```numba```. 
+Installing ```numba``` on Python3 via ```pip``` still has conflict and can only be done with ```conda```.
 
 1. Install miniconda
 ```
